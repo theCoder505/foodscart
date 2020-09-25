@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+     padding: 0;
+     color: white;
+     text-decoration: none;
+     box-sizing: border-box;
+}
+a {
+    color: white;
+}
+#restaurantheader{
+    background-image: url("restaurantimages/rest1bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.mainheaderpart{
+    padding: 0 100px;
+    margin: auto;
+    width: 100%;
+    /* background-color: tomato; */
+    z-index: 200;
+}
+
+
+.name img{
+    max-width: 150px;
+    max-height: 100px;
+    margin: 20px;
+}
+
+
+.menu ul {
+float: right;
+margin-top: -80px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 16px!important;
+}
+
+
+.menu ul li:hover a {
+   color: orange;
+   cursor: pointer;
+}
+
+.menu ul li:hover i {
+   color: blue;
+   cursor: pointer;
+}
+
+.favs{
+    margin-right: 50px!important;
+}
+.active{
+color: orange;
+}
+
+
+.writing{
+  
+   margin: auto;
+}
+
+.writing h3 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+    margin-top: 7rem;
+}
+
+
+
+
+#order{
+    padding-top: 5%;
+ width: 18%;
+ margin: auto;
+}
+
+.book{
+    background: #8d2e1c;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+
+.book:hover{
+    background:  rgb(116, 15, 15); 
+    font-style: italic;
+    font-weight: bold;
+    color: black!important;
+}
+
+.call {
+    background: #535050ab;
+    color: white;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.call:hover {
+    background: silver;
+    color: black!important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.book:hover, .call:hover{
+    color: orange;
+}
+
+
+.story {
+    background-image: url("restaurantimages/restbg2.jpg");
+    background-size: cover;
+}
+
+
+
+
+.story h2{
+    color: #fb5231;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    padding-top: 40px;
+}
+
+.devider img {
+    margin-left: 42%;
+    width: 200px;
+}
+
+.storywriting {
+    text-align: center;
+    color: #4c4c4c;
+}
+
+.storywriting h4{
+    color: #4c4c4c;
+}
+
+
+
+.fineIng{
+    background-color: #fb7155;
+}
+
+.fineIng h4{
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+
+.fineIng p{
+    margin: 45px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.fineIng img{
+    border-radius: 50%;
+}
+
+
+
+#catalog{
+    background-image: url("restaurantimages/bgdishmenu.jpg");
+    background-size: cover;
+}
+
+.row h5{
+    text-align: center;
+    font-family: 'Marck Script', cursive; 
+}
+
+
+
+.pricing{
+    max-width: 550px!important;
+    margin: auto;
+}
+.dishname{
+    float: left;
+}
+
+
+.dishPrice{
+    float: right;
+}
+
+.dishname h6 {
+    font-family: sans-serif;
+}
+.dishPrice h6 {
+    font-family: sans-serif;
+}
+.pricing p{
+    font-family: 'Yellowtail', cursive;
+    float: left!important;
+}
+
+.pricing hr{
+    border: 1px solid #a13e35;
+    width: 100%;
+    float: left;
+    border-radius: 50%;
+}
+
+/* 
+
+.guestReview img{
+ margin: auto;
+} */
+
+.startratings {
+    margin: auto;
+}
+.startratings i{
+    color: orange;
+    margin: auto;
+}
+
+
+
+.booking{
+    background-image: url("restaurantimages/bookingbg.png");
+    background-position: cover;
+}
+
+.bookImages{
+    display: inline-block;
+}
+
+.formpart h4{
+    text-align: center!important;
+    font-family: 'Marck Script', cursive; 
+    color: #fb5231;
+}
+
+.formpart h6{
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+    line-height: 1.75rem;
+}
+.formpart input{
+    color: black;
+    border-color: #719ECE;
+    margin-top: 5px;
+}
+.formpart input:focus{
+    border: 1px solid #fb5231;
+     box-shadow: 0 0 10px #f54905;
+  
+}
+
+.bookbtn{
+    color: white;
+    background-color: #fa5534;
+}
+
+.formpart p{
+    color: #fb5231;
+    float: left!important;
+}
+
+
+.date {
+    padding: 0px 37px ;
+}
+
+
+footer{
+    background-image: url("restaurantimages/bgfooter.jpg");
+    background-position: cover;
+    height: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
